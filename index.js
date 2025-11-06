@@ -129,5 +129,4 @@ const renderApp = () => {
     return;
   }
 };
-
 goToPage(POSTS_PAGE);
