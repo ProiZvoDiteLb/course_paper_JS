@@ -58,6 +58,5 @@ export function renderHeaderComponent({ element }) {
    * Если кнопка существует (т.е. пользователь авторизован), вызывает функцию `logout`.
    */
   element.querySelector(".logout-button")?.addEventListener("click", logout);
-
   return element;
 }
